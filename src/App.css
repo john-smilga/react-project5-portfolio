@@ -583,6 +583,7 @@ body {
   display: block;
   height: 25vh;
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+  background: transparent;
 }
 @media screen and (min-width: 576px) {
   .youtube-center {

@@ -13,13 +13,12 @@ export default class Youtube extends Component {
             return (
               <iframe
                 key={video.id}
-                className={`youtube-video box-${video.id}`}
+                className="youtube-video"
                 width="100%"
-                height="100%"
                 src={video.url}
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               />
             );
           })}

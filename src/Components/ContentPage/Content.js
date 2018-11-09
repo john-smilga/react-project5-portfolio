@@ -6,7 +6,7 @@ import Udemy from "./Udemy";
 export default class ContentPage extends Component {
   render() {
     const url =
-      "https://cdn.pixabay.com/photo/2016/03/03/10/17/interaction-1233873__480.jpg";
+      "https://images.pexels.com/photos/34407/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=350";
     return (
       <React.Fragment>
         <Header title="created content" url={url} />
